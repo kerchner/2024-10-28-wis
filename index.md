@@ -393,17 +393,40 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% elsif site.carpentry == "incubator" %}
-This workshop is teaching a lesson in 
-<a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
-{% endif %}
+<p>Schedule is approximate.</p>
 
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr>
+	<td>Before starting</td>
+	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr><td>Morning</td> <td> <a href="https://gwu-libraries.github.io/organization-genomics/">Project Organization and Management</a></td></tr>
+      <tr><td></td><td><a href="https://gwu-libraries.github.io/cloud-genomics/">Introduction to Cloud Computing for Genomics</a></td></tr>
+      <tr><td> </td><td><a href="https://gwu-libraries.github.io/shell-genomics/">Introduction to the Command Line</a></td></tr>
+      <tr><td>Afternoon</td><td><a href="https://gwu-libraries.github.io/shell-genomics/">Introduction to the Command Line (continued)</a></td></tr>			
+      <tr><td></td><td><a href="https://gwu-libraries.github.io/wrangling-genomics/">Data Wrangling and Processing</a></td></tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+	 <tr><td>Morning</td><td><a href="https://gwu-libraries.github.io/wrangling-genomics/">Data Wrangling and Processing (continued)</a></td></tr>
+	 <tr><td>Afternoon</td><td><a href="https://gwu-libraries.github.io/genomics-r-intro/">Intro to R and RStudio for Genomics</a></td></tr>
+    </table>
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+	<tr><td>Morning</td><td><a href="https://gwu-libraries.github.io/genomics-r-intro/">Intro to R and RStudio for Genomics (continued)</a></td></tr>
+      <tr>
+	<td>Evening</td>
+	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      </tr>
+
+    </table>
+  </div>
+</div>
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
 See the contents of the _includes/custom-schedule.html file for an example of
