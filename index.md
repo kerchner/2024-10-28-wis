@@ -305,6 +305,26 @@ This workshop is made possible by the generous financial support of <a href="htt
 </p>
 
 {% comment%}
+REGISTRATION
+{% endcomment %}
+<h2 id="registration">Registration</h2>
+
+<!--
+<p><b><i>Registration for this event is now closed.</i></b></p>
+-->
+<p>
+To register, please fill out and submit the registration form:
+</p>
+
+<p class="text-center">
+  <a href="https://forms.gle/3hf1CoSwLeh5FeK98" target="_blank">
+    <button type="button" class="btn btn-info">Data Carpentry Genomics @ Weizmann Registration Form</button>
+  </a>
+</p>
+-->
+<hr/>
+
+{% comment%}
 CODE OF CONDUCT
 {% endcomment %}
 <h2 id="code-of-conduct">Code of Conduct</h2>
