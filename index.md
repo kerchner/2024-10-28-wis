@@ -298,7 +298,10 @@ Edit the text to match who can attend the workshop. For instance:
 This workshop is made possible by the generous financial support of <a href="https://us-rse.org/">The United States Research Software Engineer Association (US-RSE)</a>, by <a href="https://carpentries.org/">The Carpentries</a>, by the <a href="https://www.weizmann.ac.il/">Weizmann Institute of Science</a>, and by <a href="https://library.gwu.edu/">The George Washington University Libraries</a>.
 
 <p>
-<img src='img/us_rse_logo_transparent.png'</img>
+<img src='img/us_rse_logo_transparent.png'/>
+<img src='img/TheCarpentries.svg'/>
+<img src='img/wis.png'/>
+<img src='img/gw_iddol_libraries_2c-320.png'/>
 </p>
 
 {% comment%}
