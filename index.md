@@ -300,19 +300,16 @@ This workshop is made possible by the generous financial support of <a href="htt
 <p>
 <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col-2">
+    <div class="col">
       <img src='assets/img/us_rse_logo_transparent.png'/>
     </div>
-    <div class="col-1"/>
-    <div class="col-4">
+    <div class="col-2">
       <img src='assets/img/TheCarpentries.png'/>
     </div>
-    <div class="col-1"/>
-    <div class="col-6">
+    <div class="col-3">
       <img src='assets/img/wis.png'/>
     </div>
-    <div class="col-1"/>
-    <div class="col-5">
+    <div class="col-2">
       <img src='assets/img/gw_iddol_libraries_2c-320.png'/>
     </div>
   </div>
@@ -338,7 +335,6 @@ To register, please fill out and submit the registration form:
     <button type="button" class="btn btn-info">Data Carpentry Genomics @ Weizmann Registration Form</button>
   </a>
 </p>
--->
 <hr/>
 
 {% comment%}
