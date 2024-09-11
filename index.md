@@ -299,7 +299,7 @@ This workshop is made possible by the generous financial support of <a href="htt
 
 <p>
 <img src='assets/img/us_rse_logo_transparent.png'/>
-<img src='assets/img/TheCarpentries.svg'/>
+<img src='assets/img/TheCarpentries.png'/>
 <img src='assets/img/wis.png'/>
 <img src='assets/img/gw_iddol_libraries_2c-320.png'/>
 </p>
@@ -454,9 +454,17 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
-<p>The <a href="https://gwu-libraries.github.io/genomics-workshop/index.html#setup">setup instructions for the Data Carpentry Genomics workshop</a> can be found at <a href="https://gwu-libraries.github.io/genomics-workshop/">the workshop overview site</a> under "Required additional software".  <b>You do not need to proceed to "Option A" or "Option B"</b>.  In addition, you will need an up-to-date web browser.
+<p>
+To participate in the workshop, you will need access to software as described below.  In addition, you will need an up-to-date web browser.
 </p>
 <p>
   A list of common issues that occur during installation can be found on the Carpentries
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+
+{% include install_instructions/shell.html %}
+
+{% comment %}
+<p>The <a href="https://gwu-libraries.github.io/genomics-workshop/index.html#setup">setup instructions for the Data Carpentry Genomics workshop</a> can be found at <a href="https://gwu-libraries.github.io/genomics-workshop/">the workshop overview site</a> under "Required additional software".  <b>You do not need to proceed to "Option A" or "Option B"</b>.  In addition, you will need an up-to-date web browser.
+</p>
+{% endcomment %}
