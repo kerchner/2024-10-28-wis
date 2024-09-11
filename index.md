@@ -420,7 +420,7 @@ of code below the Schedule `<h2>` header below with
     <table class="table table-striped">
 	<tr><td>Morning</td><td><a href="https://gwu-libraries.github.io/genomics-r-intro/">Intro to R and RStudio for Genomics (continued)</a></td></tr>
       <tr>
-	<td>Evening</td>
+	<td></td>
 	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
       </tr>
 
