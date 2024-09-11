@@ -293,6 +293,14 @@ Edit the text to match who can attend the workshop. For instance:
 
 <hr/>
 
+<h2>Acknowledgements</h2>
+
+This workshop is made possible by the generous financial support of <a href="https://us-rse.org/">The United States Research Software Engineer Association (US-RSE)</a>, by <a href="https://carpentries.org/">The Carpentries</a>, by the <a href="https://www.weizmann.ac.il/">Weizmann Institute of Science</a>, and by <a href="https://library.gwu.edu/">The George Washington University Libraries</a>.
+
+<p>
+<img src='img/us_rse_logo_transparent.png'</img>
+</p>
+
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
@@ -420,52 +428,9 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
-<p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+<p>The <a href="https://gwu-libraries.github.io/genomics-workshop/index.html#setup">setup instructions for the Data Carpentry Genomics workshop</a> can be found at <a href="https://gwu-libraries.github.io/genomics-workshop/">the workshop overview site</a> under "Required additional software".  <b>You do not need to proceed to "Option A" or "Option B"</b>.  In addition, you will need an up-to-date web browser.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
+  A list of common issues that occur during installation can be found on the Carpentries
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
-{% comment %}
-For online workshops, the section below provides:
-- installation instructions for the Zoom client
-- recommendations for setting up Learners' workspace so they can follow along
-  the instructions and the videoconferencing
-
-If you do not use Zoom for your online workshop, edit the file
-`_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instructions.
-{% endcomment %}
-{% if online != "false" %}
-{% include install_instructions/videoconferencing.html %}
-{% endif %}
-
-{% comment %}
-These are the installation instructions for the tools used
-during the workshop.
-{% endcomment %}
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% elsif site.carpentry == "incubator" %}
-Please check the "Setup" page of
-<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
-to obtain the software and data you will need to follow the lesson.
-{% endif %}
