@@ -7,14 +7,12 @@
 
   <div>
     <ul class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#shell-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#shell-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#shell-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    <li role="presentation" class="active"><a data-os="windows" href="#shell-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows users only: Setting up software you can use to connect to your cloud computer</a></li>
     </ul>
 
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="shell-windows">
-Open your Command Prompt app by searching for "cmd". At the command prompt, type <code>ssh</code>. Confirm that this prints out the usage information for the ssh command. If the result is "Command not found" then you have a few options:
+Open your Command Prompt app by searching for "cmd". At the command prompt, type <code>ssh</code>. Confirm that this prints out the usage information for the <code>ssh</code> command - if this is the case, then you do not need to install anything. However, if the result is <code>Command not found</code> then you have two options:
         <ul>
           <li>Set up the Ubuntu Subsystem for Windows. This option is only available for Windows 10 - detailedinstructions are available at <a href="https://docs.microsoft.com/en-us/windows/wsl/install">https://docs.microsoft.com/en-us/windows/wsl/install</a>.</li>
           <li>Download the Git for Windows <a href="https://gitforwindows.org/">installer</a>. Run the installer and follow the steps below:</li>
@@ -25,7 +23,7 @@ Open your Command Prompt app by searching for "cmd". At the command prompt, type
               <li>Ensure that "Git from the command line and also from 3rd-party software" is selected and click on "Next". (If you don't do this Git Bash will not work properly, requiring you to remove the Git Bash installation, re-run the installer and to select the "Git from the command line and also from 3rd-party software" option.)</li>
               <li>Ensure that "Use the native Windows Secure Channel Library" is selected and click on "Next".</li>
               <li>Ensure that "Checkout Windows-style, commit Unix-style line endings" is selected and click on "Next".</li>
-              <li><strong>Ensure that "Use Windows' default console window" is selected and click on "Next".</li>
+              <li><strong>Ensure that "Use Windows' default console window" is selected and click on "Next".</strong></li>
               <li>Ensure that "Default (fast-forward or merge) is selected and click "Next".</li>
               <li>Ensure that "Git Credential Manager Core" is selected and click on "Next".</li>
               <li>Ensure that "Enable file system caching" is selected and click on "Next".</li>

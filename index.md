@@ -300,18 +300,12 @@ This workshop is made possible by the generous financial support of <a href="htt
 <p>
 <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col">
-      <img src='assets/img/us_rse_logo_transparent.png'/>
-    </div>
-    <div class="col-2">
-      <img src='assets/img/TheCarpentries.png'/>
-    </div>
-    <div class="col-3">
-      <img src='assets/img/wis.png'/>
-    </div>
-    <div class="col-2">
-      <img src='assets/img/gw_iddol_libraries_2c-320.png'/>
-    </div>
+      <div class="col-auto">
+        <img src='assets/img/us_rse_logo_transparent.png' class="img-fluid"/>
+        <img src='assets/img/TheCarpentries.png'  class="img-fluid"/>
+        <img src='assets/img/wis.png'  class="img-fluid"/>
+        <img src='assets/img/gw_iddol_libraries_2c-320.png'  class="img-fluid"/>
+      </div>
   </div>
 </div>
 </p>
@@ -488,7 +482,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-To participate in the workshop, you will need a laptop with an up-to-date web browser.  In addition, Windows users may need to install additional software (see instructions under Setup).
+To participate in the workshop, you will need a laptop with an up-to-date web browser.  In addition, Windows users may need to install additional software (see instructions below).
 </p>
 <p>
   A list of common issues that occur during installation can be found on the Carpentries
