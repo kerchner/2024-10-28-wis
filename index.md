@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Weizmann Institute of Science"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Rehovot, Israel"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Weizmann Institute of Science, 234 Herzl, Rehovot, Israel"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "il"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "31.90397"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -488,16 +488,60 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-To participate in the workshop, you will need access to software as described below.  In addition, you will need an up-to-date web browser.
+To participate in the workshop, you will need a laptop with an up-to-date web browser.  In addition, Windows users may need to install additional software (see instructions under Setup).
 </p>
 <p>
   A list of common issues that occur during installation can be found on the Carpentries
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-{% include install_instructions/shell.html %}
+# Setup Overview
 
-{% comment %}
-<p>The <a href="https://gwu-libraries.github.io/genomics-workshop/index.html#setup">setup instructions for the Data Carpentry Genomics workshop</a> can be found at <a href="https://gwu-libraries.github.io/genomics-workshop/">the workshop overview site</a> under "Required additional software".  <b>You do not need to proceed to "Option A" or "Option B"</b>.  In addition, you will need an up-to-date web browser.
-</p>
-{% endcomment %}
+This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances.
+We will be providing you with an AWS instance.  To access your AWS instance, some additional software, detailed below, may need to be installed on your computer.
+
+
+## Required additional software
+
+- This lesson requires a working spreadsheet program.  If you have a working spreadsheet program installed on your computer, such as Microsoft Excel or [LibreOffice](https://www.libreoffice.org/) (a free, open source spreadsheet program), you can use that.  Otherwise, you can use Google Sheets.  Either option will work well for this workshop.  
+- For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu Subsystem.  Instructions are below.
+
+:::::::::::::::: spoiler
+
+## Windows users only:  Setting up software you can use to connect to your cloud computer
+
+Open your Command Prompt app by searching for "cmd".  At the command prompt, type `ssh`.  Confirm that this prints out the usage information for the `ssh` command.  If the result is "Command not found" then you have a few options:
+
+- Set up the Ubuntu Subsystem for Windows. This option is only available for Windows 10 - detailedinstructions are available at [https://docs.microsoft.com/en-us/windows/wsl/install](https://docs.microsoft.com/en-us/windows/wsl/install).
+- Download the [Git for Windows installer](https://git-for-windows.github.io/).
+  Run the installer and follow the steps below:
+  - Click on "Next" four times (two times if you've previously installed Git).
+    You don't need to change anything in the Information, location, components, and start menu screens.
+  - **From the dropdown menu select "Use the Nano editor by default"
+    (NOTE: you will need to scroll up to find it) and click on "Next".**
+  - On the page that says "Adjusting the name of the initial branch in new repositories",
+    ensure that "Let Git decide" is selected.
+    This will ensure the highest level of compatibility for our lessons.
+  - Ensure that "Git from the command line and also from 3rd-party software"
+    is selected and click on "Next".
+    (If you don't do this Git Bash will not work properly,
+    requiring you to remove the Git Bash installation,
+    re-run the installer and to select the
+    "Git from the command line and also from 3rd-party software" option.)
+  - Ensure that "Use the native Windows Secure Channel Library" is selected and click on "Next".
+  - Ensure that "Checkout Windows-style, commit Unix-style line endings" is selected and click on "Next".
+  - **Ensure that "Use Windows' default console window" is selected and click on "Next".**
+  - Ensure that "Default (fast-forward or merge) is selected and click "Next"
+  - Ensure that "Git Credential Manager Core" is selected and click on "Next".
+  - Ensure that "Enable file system caching" is selected and click on "Next".
+  - Click on "Install".
+  - Click on "Finish".
+  - Check the settings for you your "HOME" environment variable.
+  - If your "HOME" environment variable is not set (or you don't know what this is):
+  - Open command prompt (Open Start Menu then type `cmd` and press [Enter])
+  - Type the following line into the command prompt window exactly as shown: `setx HOME "%USERPROFILE%"`
+  - Press [Enter], you should see `SUCCESS: Specified value was saved.`
+  - Quit command prompt by typing `exit` then pressing [Enter]
+- Another option is to install the MobaXterm desktop app.  Please follow the download instructions at [mobaxterm.mobatek.net](https://mobaxterm.mobatek.net/){:target="\_blank"} to download the free edition.
+
+:::::::::::::::::::::::::
