@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Weizmann Institute of Science"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Weizmann Institute of Science, Feinberg Graduate School, Room B, 234 Herzl, Rehovot, Israel"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Weizmann Institute of Science, Rehovot, Israel"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "il"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "31.90397"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -187,6 +187,13 @@ This block displays the date and links to Google Calendar.
 </p>
 {% endif %}
 
+{% if page.language %}
+<p id="language">
+  <strong>Language:</strong>
+  The workshop will be conducted in English.
+</p>
+{% endif %}
+
 {% comment %}
 SPECIAL REQUIREMENTS
 
@@ -295,7 +302,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <h2>Acknowledgements</h2>
 
-This workshop is made possible by the generous financial support of <a href="https://us-rse.org/">The United States Research Software Engineer Association (US-RSE)</a>, by <a href="https://carpentries.org/">The Carpentries</a>, by the <a href="https://www.weizmann.ac.il/">Weizmann Institute of Science</a>, and by <a href="https://library.gwu.edu/">The George Washington University Libraries</a>.
+This workshop is made possible by the generous financial support of <a href="https://us-rse.org/">The United States Research Software Engineer Association (US-RSE)</a>, by <a href="https://carpentries.org/">The Carpentries</a>, by the <a href="https://www.weizmann.ac.il/">Weizmann Institute of Science</a>, by <a href="https://library.gwu.edu/">The George Washington University Libraries</a>, and by <a href="https://elixir-europe.org/">ELIXIR</a>.
 
 <p>
 <div class="container">
@@ -305,6 +312,7 @@ This workshop is made possible by the generous financial support of <a href="htt
         <img src='assets/img/TheCarpentries.png'  class="img-fluid"/>
         <img src='assets/img/wis.png'  class="img-fluid"/>
         <img src='assets/img/gw_iddol_libraries_2c-320.png'  class="img-fluid"/>
+        <img src='assets/img/elixir.png'  class="img-fluid"/>
       </div>
   </div>
 </div>
