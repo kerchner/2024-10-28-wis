@@ -325,9 +325,9 @@ REGISTRATION
 
 <h2 id="registration">Registration</h2>
 
-<!--
 <p><b><i>Registration for this event is now closed.</i></b></p>
--->
+
+<!--
 <p>
 To register, please fill out and submit the registration form:
 </p>
@@ -337,6 +337,7 @@ To register, please fill out and submit the registration form:
     <button type="button" class="btn btn-info">Data Carpentry Genomics @ Weizmann Registration Form</button>
   </a>
 </p>
+-->
 <hr/>
 
 {% comment%}
