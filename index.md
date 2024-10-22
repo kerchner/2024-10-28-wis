@@ -325,13 +325,20 @@ REGISTRATION
 
 <h2 id="registration">Registration</h2>
 
-<p><b><i>Registration for this event is now closed.</i></b></p>
+<p><b><i>Registration for this event is now closed,</i></b>  but you may fill out the form below if you wish to be notified about future Carpentries workshops in Israel.</p>
 
 <!--
 <p>
 To register, please fill out and submit the registration form:
 </p>
+-->
 
+<p class="text-center">
+  <a href="https://forms.gle/tEtkFrugxrEng7Ss7" target="_blank">
+    <button type="button" class="btn btn-info">Link to Expression of Interest Form</button>
+  </a>
+</p>
+<!--
 <p class="text-center">
   <a href="https://forms.gle/3hf1CoSwLeh5FeK98" target="_blank">
     <button type="button" class="btn btn-info">Data Carpentry Genomics @ Weizmann Registration Form</button>
