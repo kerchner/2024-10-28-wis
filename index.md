@@ -446,22 +446,22 @@ of code below the Schedule `<h2>` header below with
 	<td>Before starting</td>
 	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>Morning</td> <td> <a href="https://gwu-libraries.github.io/organization-genomics/">Project Organization and Management</a></td></tr>
-      <tr><td></td><td><a href="https://gwu-libraries.github.io/cloud-genomics/">Introduction to Cloud Computing for Genomics</a></td></tr>
-      <tr><td> </td><td><a href="https://gwu-libraries.github.io/shell-genomics/">Introduction to the Command Line</a></td></tr>
-      <tr><td>Afternoon</td><td><a href="https://gwu-libraries.github.io/shell-genomics/">Introduction to the Command Line (continued)</a></td></tr>			
-      <tr><td></td><td><a href="https://gwu-libraries.github.io/wrangling-genomics/">Data Wrangling and Processing</a></td></tr>
+      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/organization-genomics/">Project Organization and Management</a></td></tr>
+      <tr><td></td><td><a href="https://datacarpentry.org/cloud-genomics/">Introduction to Cloud Computing for Genomics</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/shell-genomics/">Introduction to the Command Line</a></td></tr>
+      <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/shell-genomics/">Introduction to the Command Line (continued)</a></td></tr>			
+      <tr><td></td><td><a href="https://datacarpentry.org/wrangling-genomics/">Data Wrangling and Processing</a></td></tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-	 <tr><td>Morning</td><td><a href="https://gwu-libraries.github.io/wrangling-genomics/">Data Wrangling and Processing (continued)</a></td></tr>
-	 <tr><td>Afternoon</td><td><a href="https://gwu-libraries.github.io/genomics-r-intro/">Intro to R and RStudio for Genomics</a></td></tr>
+	 <tr><td>Morning</td><td><a href="https://datacarpentry.org/wrangling-genomics/">Data Wrangling and Processing (continued)</a></td></tr>
+	 <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/genomics-r-intro/">Intro to R and RStudio for Genomics</a></td></tr>
     </table>
     <h3>Day 3</h3>
     <table class="table table-striped">
-	<tr><td>Morning</td><td><a href="https://gwu-libraries.github.io/genomics-r-intro/">Intro to R and RStudio for Genomics (continued)</a></td></tr>
+	<tr><td>Morning</td><td><a href="https://datacarpentry.org/genomics-r-intro/">Intro to R and RStudio for Genomics (continued)</a></td></tr>
       <tr>
 	<td></td>
 	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
